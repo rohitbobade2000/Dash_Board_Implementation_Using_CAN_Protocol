@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "node_b_main.o" "4bit_lcd_driver.o" "can_driver.o" "timer.o" --strict --scatter "Node_B.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Node_B.map" -o "Node_B.axf"
